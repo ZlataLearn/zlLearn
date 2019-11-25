@@ -1,5 +1,5 @@
 const replace = (string, search, value) => string.split(search).join(value);
-const names = ["greeting", "name", "checkNumber", "date", "waygoing"];
+const names = ["greeting", "name", "checkNumber", "date"];
 function updateTextarea() {
 	const template = document.querySelector('[name="template"]').value;
 	let result = template;
